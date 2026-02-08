@@ -1,0 +1,33 @@
+{
+  "name": "playwright-demoqa-interview",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript project for DemoQA testing - Interview preparation and showcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:basic": "npx playwright test tests/01-basic/",
+    "test:forms": "npx playwright test tests/02-forms/",
+    "test:widgets": "npx playwright test tests/03-widgets/",
+    "test:elements": "npx playwright test tests/04-elements/",
+    "test:advanced": "npx playwright test tests/05-advanced/",
+    "test:browser": "npx playwright test tests/06-browser-context/",
+    "test:debug-tests": "npx playwright test tests/07-debugging/",
+    "test:interview": "npx playwright test tests/08-interview-scenarios/",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "demoqa",
+    "interview"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
